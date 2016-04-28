@@ -23,7 +23,7 @@ $ cd gtfseditor
 ```
 which will get you the latest version.
 
-If you never use a *virtual environments* before, intall it:
+If you never use a *virtual environment* before, install it:
 
 ```
 $ pip install virtualenvwrapper
