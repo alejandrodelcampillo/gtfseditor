@@ -1,7 +1,7 @@
 Gtfseditor
 ==========
 
-A customizable editor for GTFS files which can be used both as a standalone app 
+A customizable editor for GTFS files which can be used both as a standalone app
 or deployed to a wsgi compliant hosting.
 
 Demo
@@ -9,7 +9,7 @@ Demo
 
 There might be a demo running at http://gtfseditor.herokuapp.com
 The admin interface is at http://gtfseditor.herokuapp.com/editor
-and the credentials are 
+and the credentials are
 
 username: admin@gtfseditor.com
 password: admin
@@ -23,7 +23,16 @@ $ cd gtfseditor
 ```
 which will get you the latest version.
 
-Create a new virtual environment (we named it __gtfs__ but you can name it 
+If you never use a *virtual environments* before, intall it:
+
+```
+$ pip install virtualenvwrapper
+$ export WORKON_HOME=~/Envs
+$ mkdir -p $WORKON_HOME
+$ source /usr/local/bin/virtualenvwrapper.sh
+```
+
+Create a new virtual environment (we named it __gtfs__ but you can name it
 anything you like) and activate it using
 ```
 $ mkvirtualenv gtfs
@@ -62,7 +71,7 @@ directory with a DB looking like the one in production.
 
 Configuration
 -------------
-The main configuration file for the server is located at `config.py`. Environment variables 
+The main configuration file for the server is located at `config.py`. Environment variables
 can be overriden by writing them inside a .env file at the root level.
 
 
@@ -93,10 +102,10 @@ among other auxiliary packages.
 Database
 --------
 
-Development and local usage are best served by using **SQLite** as a db engine. It 
-allows for rapid setup and portability. 
+Development and local usage are best served by using **SQLite** as a db engine. It
+allows for rapid setup and portability.
 
-Some hosted services do not support sqlite as a db engine (heroku), and 
+Some hosted services do not support sqlite as a db engine (heroku), and
 **postgres** can be used.
 
 Install postgresql and run

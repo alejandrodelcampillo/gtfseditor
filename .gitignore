@@ -8,3 +8,5 @@ venv/
 .tmp/
 *.log
 *.sqlite
+*.nja
+
