@@ -15,15 +15,15 @@ Está basado en un desarrollo inicial de
 en la Ciudad de Córdoba y en la Provincia de Mendoza.  
 
 
-
 Contenido:
 
 .. toctree::
    :maxdepth: 2
 
+   feeds
+   agencias
 
-
-Indices and tables
+Indices y tablas
 ==================
 
 * :ref:`genindex`
