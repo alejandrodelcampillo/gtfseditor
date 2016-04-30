@@ -7,8 +7,8 @@ Doctransito
 ===========
 
 Doctránsito es un editor de recorridos de transporte en formato 
-`GTFS <https://developers.google.com/transit/gtfs/?hl=es>`_
- (**G** oogle **T** ransit **F** eed **S** pecification).  
+`GTFS <https://developers.google.com/transit/gtfs/?hl=es>`_ 
+(**G**oogle **T**ransit **F**eed **S**pecification).  
   
 Está basado en un desarrollo inicial de 
 `Gastón Ávila <https://www.linkedin.com/in/gastonavila>`_ que se implementó 
