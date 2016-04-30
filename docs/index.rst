@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Doctránsito
-============================= 
+Doctransito
+===========
 
 Doctránsito es un editor de recorridos de transporte en formato `GTFS <https://developers.google.com/transit/gtfs/?hl=es>`_
 `Login: <http://localhost:5000/auth/login>`_ (**G**oogle **T**ransit **F**eed **S**pecification)
 
 Está basado en un desarrollo inicial de `Gastón Ávila <https://www.linkedin.com/in/gastonavila>`_ que se implementó 
-en la ciudad de Córdoba y en la Provincia de Mendoza.
+
 
 Contenido:
 
