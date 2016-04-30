@@ -6,10 +6,14 @@
 Doctransito
 ===========
 
-Doctránsito es un editor de recorridos de transporte en formato `GTFS <https://developers.google.com/transit/gtfs/?hl=es>`_
-`Login: <http://localhost:5000/auth/login>`_ (**G**oogle **T**ransit **F**eed **S**pecification)
+Doctránsito es un editor de recorridos de transporte en formato 
+`GTFS <https://developers.google.com/transit/gtfs/?hl=es>`_
+ (**G** oogle **T** ransit **F** eed **S** pecification).  
+  
+Está basado en un desarrollo inicial de 
+`Gastón Ávila <https://www.linkedin.com/in/gastonavila>`_ que se implementó 
+en la Ciudad de Córdoba y en la Provincia de Mendoza.  
 
-Está basado en un desarrollo inicial de `Gastón Ávila <https://www.linkedin.com/in/gastonavila>`_ que se implementó 
 
 
 Contenido:
