@@ -178,10 +178,10 @@ This user will not need a password to connect to the DB.
 Helping us with documentation
 -----------------------------
 
-Install Sphinx and ReadTheDocs theme.
+Install Sphinx and ReadTheDocs theme.  
 ```
 pip install Sphinx
 pip install sphinx_rtd_theme
 ```
 
-Write docs at **app/static/docs/** and compile rst files whith `make html` 
+Write docs at **app/static/docs/** and compile rst files whith `make html`  

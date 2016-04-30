@@ -24,7 +24,7 @@ class Config:
 
     ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL') or 'admin@gtfseditor.com'
 
-    FLASKY_SLOW_DB_QUERY_TIME=0.5
+    FLASKY_SLOW_DB_QUERY_TIME = 0.5
 
     BROKER_URL = os.environ.get('CLOUDAMQP_URL') or 'sqla+sqlite:///celerydb.sqlite'
     CELERY_RESULT_BACKEND = os.environ.get('CLOUDAMQP_URL') or 'db+sqlite:///celerydb.sqlite'
@@ -70,7 +70,6 @@ class PostgresConfig(Config):
 
         # app_logger = app.logger
         # werkzeug_logger = getLogger('werkzeug')
-
 
 
 class ProductionConfig(Config):
