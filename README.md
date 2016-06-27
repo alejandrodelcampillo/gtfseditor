@@ -4,6 +4,8 @@ Gtfseditor
 A customizable editor for GTFS files which can be used both as a standalone app
 or deployed to a wsgi compliant hosting.
 
+![GTFSEditor](https://raw.githubusercontent.com/ModernizacionMuniCBA/gtfseditor/develop/docs/images/ruta.png)
+
 Demo
 ----
 
