@@ -18,7 +18,7 @@ SQLAlchemy==1.0.9
 SQLAlchemy-Continuum==1.2.1
 SQLAlchemy-Utils==0.31.1
 WTForms==2.1
-Werkzeug==0.10.1
+Werkzeug==0.15.3
 alembic==0.7.4
 amqp==1.4.9
 anyjson==0.3.3
